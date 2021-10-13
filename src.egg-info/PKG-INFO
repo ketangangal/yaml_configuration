@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: src
+Version: 0.0.1
+Summary: A small example package Ann Implementations
+Home-page: https://github.com/ketangangal/yaml_configuration.git
+Author: BlackPanther
+Author-email: ketangangal98@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Yaml_configuration
+This is Yaml_configuration usecase project 
+
+## Import commands
+conda create --prefix ./envs python=3.7 -y 
+
+```buildoutcfg
+conda.bat activate ./envs
+```
+
+
