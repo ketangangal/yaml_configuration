@@ -1,0 +1,23 @@
+params:
+  test: testkeywords
+  epochs: 30
+  batch_size: 32
+  no_classes: 10
+  input_shape: [28,28]
+  loss_function: sparse_categorical_cross_entropy
+  metrics: accuracy
+  otimizer: SDG
+  validation_datasize: 5000
+
+
+
+artifacts:
+  artifacts_dir: artifacts
+  model_dir: models
+  plots_dir: plots
+  check_dir: checkpoints
+
+logs:
+  logs_dir: logs
+  general_logs_dir: general_logs
+  tensor_logs_dir: tensor_logs_dir
