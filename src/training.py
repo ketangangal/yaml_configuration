@@ -22,7 +22,6 @@ def training(config_path):
     history = model.fit(X_train_norm, y_train, validation_data=(X_validate_norm, y_valid), epochs=Epoch)
 
 
-
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config","-c", default=r'C:\Users\ketan\Desktop\DeepLearning\yaml_configuration\config.yaml')
