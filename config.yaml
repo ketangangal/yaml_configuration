@@ -1,12 +1,12 @@
 params:
   test: testkeywords
-  epochs: 30
+  epochs: 1
   batch_size: 32
   no_classes: 10
   input_shape: [28,28]
-  loss_function: sparse_categorical_cross_entropy
+  loss_function: sparse_categorical_crossentropy
   metrics: accuracy
-  otimizer: SDG
+  otimizer: SGD
   validation_datasize: 5000
 
 
