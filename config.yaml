@@ -1,6 +1,6 @@
 params:
   test: testkeywords
-  epochs: 1
+  epochs: 5
   batch_size: 32
   no_classes: 10
   input_shape: [28,28]

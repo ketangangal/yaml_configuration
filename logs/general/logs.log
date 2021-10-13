@@ -1,12 +1,64 @@
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~  Training Started 
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~ validation_size :5000  
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~ Data fetched from Keras repo
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~  Normalization Completed 
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 1, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~  Layers Initialization done 
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~  model Summary 
+[ 13-10-2021 17:07:27 ~ Log_Type:Info ] ~  Training Started 
+[ 13-10-2021 17:07:27 ~ Log_Type:Info ] ~ validation_size :5000  
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~ Data fetched from Keras repo
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~  Normalization Completed 
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 1, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~  Layers Initialization done 
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~  model Summary 
  None
-[ 13-10-2021 16:06:02 ~ Log_Type:Info ] ~ Model created 
-[ 13-10-2021 16:06:11 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x000001DA5CC19F40> 
-[ 13-10-2021 16:06:11 ~ Log_Type:Info ] ~ Model Saved
+[ 13-10-2021 17:07:28 ~ Log_Type:Info ] ~ Model created 
+[ 13-10-2021 17:07:36 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x000001EB178E0BB0> 
+[ 13-10-2021 17:07:36 ~ Log_Type:Info ] ~ Model Saved
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~  Training Started 
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~ validation_size :5000  
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~ Data fetched from Keras repo
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~  Normalization Completed 
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 1, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~  Layers Initialization done 
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~  model Summary 
+ None
+[ 13-10-2021 17:09:06 ~ Log_Type:Info ] ~ Model created 
+[ 13-10-2021 17:09:15 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x000001CA04A70BB0> 
+[ 13-10-2021 17:09:15 ~ Log_Type:Info ] ~ Model Saved
+[ 13-10-2021 17:09:52 ~ Log_Type:Info ] ~ plot saved
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~  Training Started 
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~ validation_size :5000  
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~ Data fetched from Keras repo
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~  Normalization Completed 
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 5, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~  Layers Initialization done 
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~  model Summary 
+ None
+[ 13-10-2021 17:11:08 ~ Log_Type:Info ] ~ Model created 
+[ 13-10-2021 17:11:47 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x0000022206293940> 
+[ 13-10-2021 17:11:47 ~ Log_Type:Info ] ~ Model Saved
+[ 13-10-2021 17:11:53 ~ Log_Type:Info ] ~ plot saved
+[ 13-10-2021 17:13:00 ~ Log_Type:Info ] ~  Training Started 
+[ 13-10-2021 17:13:00 ~ Log_Type:Info ] ~ validation_size :5000  
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~ Data fetched from Keras repo
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~  Normalization Completed 
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 5, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~  Layers Initialization done 
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~  model Summary 
+ None
+[ 13-10-2021 17:13:01 ~ Log_Type:Info ] ~ Model created 
+[ 13-10-2021 17:13:39 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x000001E9DA040BB0> 
+[ 13-10-2021 17:13:40 ~ Log_Type:Info ] ~ Model Saved
+[ 13-10-2021 17:13:49 ~ Log_Type:Info ] ~ plot saved
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~  Training Started 
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~ validation_size :5000  
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~ Data fetched from Keras repo
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~  Normalization Completed 
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 5, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~  Layers Initialization done 
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~  model Summary 
+ None
+[ 13-10-2021 17:18:14 ~ Log_Type:Info ] ~ Model created 
+[ 13-10-2021 17:18:54 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x000001E61143FBB0> 
+[ 13-10-2021 17:18:54 ~ Log_Type:Info ] ~ Model Saved
+[ 13-10-2021 17:18:54 ~ Log_Type:Info ] ~ plot saved
