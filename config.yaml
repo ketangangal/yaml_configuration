@@ -18,6 +18,6 @@ artifacts:
   check_dir: checkpoints
 
 logs:
-  logs_dir: logs
+  logs_dir: C:\Users\ketan\Desktop\DeepLearning\yaml_configuration\logs\general\logs.log
   general_logs_dir: general_logs
   tensor_logs_dir: tensor_logs_dir
