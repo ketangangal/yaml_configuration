@@ -1,6 +1,6 @@
 from src.utils.common import read_config
 from src.utils.data_mgmt import get_data
-from src.utils.model import create_model, save_model
+from src.utils.model import create_model, save_model, save_plot
 import os
 from logs import logger
 
@@ -36,13 +36,19 @@ def training(config_path):
     log.info(log_type='Info', log_message=f'Model History {history} ')
 
     artifacts_path = config["artifacts"]["artifacts_dir"]
+    plot_path = config["artifacts"]["plots_dir"]
     path_to_model = config["artifacts"]["model_dir"]
 
-    final_path = os.path.join(artifacts_path, path_to_model)
+    artifacts_models_path = os.path.join(artifacts_path, path_to_model)
+    artifacts_plot_path = os.path.join(artifacts_path, plot_path)
+
     model_name = config["artifacts"]["model_name"]
 
-    save_model(model, model_name, final_path)
+    save_model(model, model_name, artifacts_models_path)
     log.info(log_type='Info', log_message='Model Saved')
+
+    save_plot(history, model_name, artifacts_plot_path)
+    log.info(log_type='Info', log_message='plot saved')
 
 
 if __name__ == '__main__':
