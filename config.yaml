@@ -12,10 +12,11 @@ params:
 
 
 artifacts:
-  artifacts_dir: artifacts
+  artifacts_dir: C:\Users\ketan\Desktop\DeepLearning\yaml_configuration\artifacts
   model_dir: models
   plots_dir: plots
   check_dir: checkpoints
+  model_name: keras_model
 
 logs:
   logs_dir: C:\Users\ketan\Desktop\DeepLearning\yaml_configuration\logs\general\logs.log
