@@ -1,6 +1,7 @@
 import tensorflow as tf
 
-def create_model(input_shape,Loss_function,optimizer,metrics,Num_classes):
+
+def create_model(input_shape, Loss_function, optimizer, metrics, Num_classes):
     LAYERS = [
         tf.keras.layers.Flatten(input_shape=input_shape, name='Input_Layer'),
         tf.keras.layers.Dense(500, activation='relu', name='1st_Hidden_Layer'),
