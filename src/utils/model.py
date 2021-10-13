@@ -3,6 +3,7 @@ from logs import logger
 import os
 import time
 
+
 def create_model(input_shape, Loss_function, optimizer, metrics, Num_classes, config):
     path = config["logs"]["logs_dir"]
     log = logger.Logger(file=path)
