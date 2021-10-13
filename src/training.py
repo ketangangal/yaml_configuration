@@ -1,6 +1,7 @@
 from src.utils.common import read_config
 from src.utils.data_mgmt import get_data
-from src.utils.model import create_model
+from src.utils.model import create_model, save_model
+import os
 from logs import logger
 
 
@@ -33,6 +34,15 @@ def training(config_path):
     Epoch = config["params"]["epochs"]
     history = model.fit(X_train_norm, y_train, validation_data=(X_validate_norm, y_valid), epochs=Epoch)
     log.info(log_type='Info', log_message=f'Model History {history} ')
+
+    artifacts_path = config["artifacts"]["artifacts_dir"]
+    path_to_model = config["artifacts"]["model_dir"]
+
+    final_path = os.path.join(artifacts_path, path_to_model)
+    model_name = config["artifacts"]["model_name"]
+
+    save_model(model, model_name, final_path)
+    log.info(log_type='Info', log_message='Model Saved')
 
 
 if __name__ == '__main__':
