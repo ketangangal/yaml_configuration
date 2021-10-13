@@ -1,0 +1,11 @@
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~  Training Started 
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~ validation_size :5000  
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~ Data fetched from Keras repo
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~  Normalization Completed 
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~ Train - Test - Validation Split Completed
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~ Model Params: {'test': 'testkeywords', 'epochs': 1, 'batch_size': 32, 'no_classes': 10, 'input_shape': [28, 28], 'loss_function': 'sparse_categorical_crossentropy', 'metrics': 'accuracy', 'otimizer': 'SGD', 'validation_datasize': 5000}
+[ 13-10-2021 11:20:01 ~ Log_Type:Info ] ~  Layers Initialization done 
+[ 13-10-2021 11:20:02 ~ Log_Type:Info ] ~  model Summary 
+ None
+[ 13-10-2021 11:20:02 ~ Log_Type:Info ] ~ Model created 
+[ 13-10-2021 11:20:11 ~ Log_Type:Info ] ~ Model History <tensorflow.python.keras.callbacks.History object at 0x0000022485877E80> 
