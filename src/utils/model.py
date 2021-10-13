@@ -1,6 +1,7 @@
 import tensorflow as tf
 from logs import logger
-
+import os
+import time
 
 def create_model(input_shape, Loss_function, optimizer, metrics, Num_classes, config):
     path = config["logs"]["logs_dir"]
@@ -24,3 +25,14 @@ def create_model(input_shape, Loss_function, optimizer, metrics, Num_classes, co
 
     # untrained model
     return model
+
+
+def get_unique_filename(filename):
+    unique_filename = time.strftime(f"{filename}._%Y_%m_%d_%H_%M_%S.h5")
+    return unique_filename
+
+
+def save_model(model, name, path):
+    unique_name = get_unique_filename(name)
+    path_to_model = os.path.join(path, unique_name)
+    model.save(path_to_model)
